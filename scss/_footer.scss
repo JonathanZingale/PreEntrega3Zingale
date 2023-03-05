@@ -1,0 +1,55 @@
+/* FOOTER */
+
+footer {
+    background-color: $background-color_2;
+    color: $color_1;
+    align-self: flex-end;
+    width: 100%;
+    height: 10rem;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        list-style: none;
+        padding: 1rem;
+
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+
+    a {
+        color: $color_1;
+        font-size: 1.7rem;
+    }
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.icoY {
+    &:hover {
+        color: $color_2;
+    }
+}
+
+.icoF {
+    &:hover {
+        color: $color_2;
+    }
+}
+
+.icoI {
+    &:hover {
+        color: $color_2;
+    }
+}

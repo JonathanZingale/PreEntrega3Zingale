@@ -1,0 +1,55 @@
+//MIXIN
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color_1;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: $background-color_2;
+}
+
+.logo {
+    width: 4rem;
+
+    &:hover {
+        filter: invert(56%) sepia(96%) saturate(611%) hue-rotate(359deg) brightness(130%) contrast(105%);
+    }
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+    li {
+        a {
+            @include anclas;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    a {
+        &:hover {
+            color: $color_2;
+        }
+    }
+}
+
+.abrir-menu {
+    display: none;
+}
+
+.cerrar-menu {
+    display: none;
+}
+

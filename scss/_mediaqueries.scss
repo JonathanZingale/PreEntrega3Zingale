@@ -1,0 +1,178 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1023px) {
+    .contenedorHistoria {
+        grid-template-areas: "imgProf imgProf " "nuestraHistoria nuestraHistoria" "nuestroRef nuestroRef" "imgSavel imgSavel";
+    }
+
+    .contenedorReferente {
+        grid-template-areas: "imgProf imgProf " "nuestraHistoria nuestraHistoria" "nuestroRef nuestroRef" "imgSavel imgSavel";
+    }
+
+    .imgProf {
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 78vw;
+        }
+    }
+
+    .imgSamvel {
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 78vw;
+        }
+    }
+
+    .subtitulo {
+        font-size: 1.9rem;
+    }
+
+    .titulo {
+        font-size: 3.8rem;
+    }
+
+    .lema {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .abrir-menu {
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: $background-color_7;
+        cursor: pointer;
+        color: $color_1;
+    }
+
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: $background-color_7;
+        cursor: pointer;
+        color: $color_1;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $background-color_8;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgb(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .subtitulo {
+        font-size: 1.7rem;
+    }
+
+    .titulo {
+        font-size: 3.7rem;
+    }
+
+    .lema {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Niveles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .titulo {
+        font-size: 2.8rem;
+    }
+
+    .lema {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .titulo {
+        font-size: 2.3rem;
+    }
+
+    .lema {
+        font-size: 1rem;
+    }
+
+    .barra {
+        h4 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .nuestraHistoria {
+        h4 {
+            font-size: 1.1rem;
+        }
+    }
+
+    .nuestroRef {
+        h4 {
+            font-size: 1.1rem;
+        }
+    }
+
+    .subtitulo {
+        font-size: 0.8rem;
+    }
+
+    .titulo {
+        font-size: 1.9rem;
+    }
+
+    .lema {
+        font-size: 0.8rem;
+    }
+
+    .barra {
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+    }
+}

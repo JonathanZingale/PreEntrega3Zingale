@@ -1,0 +1,51 @@
+/* INSCRIPCIONES */
+
+.inscripcionesBack {
+	background-image: url(../img/inscripcionback.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.inscripciones {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 4rem;
+	color: $color_1;
+	text-align: flex-start;
+	justify-content: space-around;
+	align-items: flex-start;
+	p {
+		padding-top: 1rem;
+	}
+}
+.titleins {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: $color_1;
+	padding-top: 4rem;
+}
+.botonins {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 3rem;
+	a {
+		color: $color_1;
+		text-decoration: none;
+		font-size: 1.5rem;
+	}
+}
+.boton1 {
+	background-color: $background-color_5;
+	padding: 1rem;
+	border-radius: 4px;
+	transition: all 0.5s;
+	&:hover {
+		background-color: $background-color_6;
+		font-weight: bold;
+	}
+}

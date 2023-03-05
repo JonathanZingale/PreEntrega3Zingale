@@ -1,0 +1,42 @@
+/* FORMULARIO */
+
+.form {
+    padding: 1.5rem;
+    background-image: url(../img/form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem;
+    color: $color_1;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.inputForm {
+    border-radius: 0%;
+}
+
+.contact {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.boton {
+    margin-top: 1.5rem;
+    background-color: $background-color_4;
+    border: 0px;
+    color: $color_1;
+    border-radius: 0%;
+
+    &:hover {
+        background-color: $background-color_5;
+        font-weight: bold;
+    }
+}
+
+.background-contact {
+    background-color: $background-color_1;
+}

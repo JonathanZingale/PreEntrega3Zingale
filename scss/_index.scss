@@ -1,0 +1,132 @@
+//MIXIN
+
+@mixin Caja {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    grid-area: "Caja3";
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform .2s;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem;
+}
+
+@mixin CajaHover {
+    transform: scale(1.1);
+    color: $color_2;
+}
+
+/* INDEX */
+
+.banner {
+    background-image: url(../img/banner.png);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color_1;
+    gap: 0.5rem;
+    grid-area: "banner";
+}
+
+.subtitulo {
+    font-weight: normal;
+    font-size: 2.8rem;
+}
+
+.titulo {
+    font-size: 5.2rem;
+}
+
+.lema {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.6rem;
+}
+
+.Niveles {
+    display: grid;
+    grid-template-areas: "Caja1 Caja2 Caja3";
+    color: $color_1;
+    padding: 3rem;
+    background-color: $background-color_2;
+}
+
+.Caja1 {
+    background-image: url(../img/caja1.png);
+    @include Caja;
+
+    &:hover {
+        background-image: url(../img/caja1des.png);
+        @include CajaHover
+    }
+}
+
+.Caja2 {
+    background-image: url(../img/caja2.png);
+    @include Caja;
+
+    &:hover {
+        background-image: url(../img/caja2des.png);
+        @include CajaHover
+    }
+}
+
+.Caja3 {
+    background-image: url(../img/caja3.png);
+    @include Caja;
+
+    &:hover {
+        background-image: url(../img/caja3des.png);
+        @include CajaHover
+    }
+}
+
+.h4Caja {
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.barra {
+    background-image: url(../img/sededes.png);
+    height: 25rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1.5rem;
+    color: $color_1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+
+    h4 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    &:hover {
+        background-image: url(../img/sede.png);
+    }
+}
+
+.map {
+    width: 80%;
+    height: 8rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}

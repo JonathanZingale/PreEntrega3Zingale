@@ -1,0 +1,25 @@
+/* PLANES DE ESTUDIO */
+
+.planes {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: flex-start;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 4rem;
+	color: $color_1;
+	flex-direction: column;
+	background-image: url(../img/planesback.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nivelP {
+	padding-bottom: 5rem;
+}
+.nivelI {
+	padding-bottom: 5rem;
+}
+.nivelA {
+	padding-bottom: 5rem;
+}
