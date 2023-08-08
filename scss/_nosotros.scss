@@ -1,0 +1,32 @@
+.nosotros {
+	font-family: $font-family_2;
+	background-color: $background-color_2;
+	color: $color_1;
+	padding: 2rem;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size: 4rem;
+		padding-bottom: 3rem;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.nosotros1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nosotros1 p{
+	@include parrafos;
+}
+
+
+.nosotros2 {
+	width: 50rem;
+	margin-left: 2rem;
+	border-radius: 2rem;
+}
+
+

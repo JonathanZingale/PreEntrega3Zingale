@@ -1,0 +1,55 @@
+.productoscocinados {
+	font-family: $font-family_2;
+	background-color: $background-color_2;
+	color: $color_1;
+	padding: 2rem;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size: 4rem;
+		padding-bottom: 3rem;
+	}
+}
+.productos-cocinados {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ensalada {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+.fotoensalada {
+	width: 95%;
+	margin-right: 2rem;
+	border-radius: 2rem;
+}
+.pastaconsalsaypollo {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.fotopasta {
+	width: 95%;
+	margin-right: 2rem;
+	border-radius: 2rem;
+}
+.polloconensalada {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+.polloconensaldadetodo {
+	width: 95%;
+	margin-right: 2rem;
+	border-radius: 2rem;
+}
+.tacos {
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.fototacos {
+	width: 95%;
+	margin-right: 2rem;
+	border-radius: 2rem;
+}

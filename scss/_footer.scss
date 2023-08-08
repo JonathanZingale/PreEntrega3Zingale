@@ -1,0 +1,40 @@
+footer {
+	background-color: $background-color_1;
+	width: 100%;
+	height: 15vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+.redesSociales {
+	display: flex;
+	gap: 3rem;
+	padding-bottom: 1.5rem;
+}
+.icoFacebook {
+	font-size: 2rem;
+	cursor: pointer;
+	color: $color_1;
+}
+.icoInstagram {
+	font-size: 2rem;
+	cursor: pointer;
+	color: $color_1;
+}
+.icoYoutube {
+	font-size: 2rem;
+	cursor: pointer;
+	color: $color_1;
+}
+.derechos {
+	color: $color_1;
+}
+.botonHamburguesa {
+	border: none;
+	color: $color_3;
+}
+.navbar-toggler-icon {
+	font-size: 1.5rem;
+	color: $color_1;
+}

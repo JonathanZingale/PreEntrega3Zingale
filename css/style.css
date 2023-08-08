@@ -1,0 +1,418 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: #186A3B;
+}
+
+.logohome {
+  height: 6rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.logohome:hover {
+  transform: rotate(15deg);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+.nav-list a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #239B56;
+}
+
+/* INDEX */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+
+.titulo {
+  font-size: 6rem;
+  padding-top: 3rem;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.mapa {
+  width: 100%;
+  height: 35vh;
+}
+
+main {
+  background-color: #239B56;
+}
+
+/* SERVICIOS */
+.servicios {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #239B56;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.servicio {
+  font-size: 4rem;
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.servicio1 {
+  font-size: 1rem;
+}
+
+.cocineroServicios {
+  width: 50rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
+}
+
+.productoscocinados {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #239B56;
+  color: white;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos-cocinados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productoscocinados h1 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+
+.ensalada {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.fotoensalada {
+  width: 95%;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+.pastaconsalsaypollo {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.fotopasta {
+  width: 95%;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+.polloconensalada {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.polloconensaldadetodo {
+  width: 95%;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+.tacos {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.fototacos {
+  width: 95%;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+/* NOSOTROS */
+.nosotros {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #239B56;
+  color: white;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosotros h1 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosotros1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nosotros2 {
+  width: 50rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
+}
+
+/* CONTACTO */
+.formulariodecontacto {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #239B56;
+  color: white;
+  padding: 2rem;
+}
+
+.formulario {
+  font-size: 2rem;
+}
+
+.nombre {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 2.5rem;
+}
+
+.emails {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 2.5rem;
+}
+
+.telefono {
+  margin-top: 1rem;
+  width: 30rem;
+  height: 2.5rem;
+}
+
+.area {
+  margin-top: 1rem;
+  width: 30rem;
+  outline: none;
+}
+
+.botonenvio {
+  width: 10rem;
+  height: 2.5;
+  background-color: #239B56;
+  color: white;
+  border: 4px solid white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #186A3B;
+  width: 100%;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.redesSociales {
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.icoFacebook {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.icoInstagram {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.icoYoutube {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.derechos {
+  color: white;
+}
+
+.botonHamburguesa {
+  border: none;
+  color: rgba(24, 106, 60, 0);
+}
+
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* MEDIAQUERIES */
+@media screen and (max-width: 1300px) {
+  .servicios {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cocineroServicios {
+    width: 100%;
+    margin: 0;
+  }
+  .nosotros1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros2 {
+    justify-content: center;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 855px) {
+  .titulo {
+    font-size: 5rem;
+  }
+  .subtitulo {
+    font-size: 1.2rem;
+  }
+  .derechos {
+    font-size: 0.5rem;
+  }
+  .icoFacebook {
+    font-size: 1.5rem;
+  }
+  .icoInstagram {
+    font-size: 1.5rem;
+  }
+  .icoYoutube {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 789px) {
+  .ensalada {
+    font-size: 20px;
+  }
+  .pastaconsalsaypollo {
+    font-size: 20px;
+  }
+  .polloconensalada {
+    font-size: 20px;
+  }
+  .tacos {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nombre {
+    width: 100%;
+    height: auto;
+  }
+  .emails {
+    width: 100%;
+    height: auto;
+  }
+  .telefono {
+    width: 100%;
+    height: auto;
+  }
+  .area {
+    width: 100%;
+    height: auto;
+  }
+  .titulo {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .productoscocinados h1 {
+    font-size: 40px;
+  }
+  .ensalada {
+    font-size: 15px;
+  }
+  .pastaconsalsaypollo {
+    font-size: 15px;
+  }
+  .polloconensalada {
+    font-size: 15px;
+    padding-top: 1rem;
+  }
+  .tacos {
+    font-size: 15px;
+  }
+  .productos-cocinados {
+    flex-direction: column;
+  }
+  ::-moz-placeholder {
+    font-size: 1.4rem;
+  }
+  ::placeholder {
+    font-size: 1.4rem;
+  }
+  .titulo {
+    font-size: 2rem;
+  }
+  .subtitulo {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .subtitulo {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .servicio {
+    font-size: 50px;
+  }
+  .nosotros h1 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */

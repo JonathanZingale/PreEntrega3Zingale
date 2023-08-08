@@ -1,0 +1,122 @@
+@media screen and (max-width: 1300px) {
+	.servicios {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.cocineroServicios {
+		width: 100%;
+		margin: 0;
+	}
+	.nosotros1 {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.nosotros2 {
+		justify-content: center;
+		width: 80%;
+	}
+}
+@media screen and (max-width: 855px) {
+	.titulo {
+		font-size: 5rem;
+	}
+	.subtitulo {
+		font-size: 1.2rem;
+	}
+	.derechos {
+		font-size: 0.5rem;
+	}
+	.icoFacebook {
+		font-size: 1.5rem;
+	}
+	.icoInstagram {
+		font-size: 1.5rem;
+	}
+	.icoYoutube {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 789px) {
+	.ensalada {
+		font-size: 20px;
+	}
+	.pastaconsalsaypollo {
+		font-size: 20px;
+	}
+	.polloconensalada {
+		font-size: 20px;
+	}
+	.tacos {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.nombre {
+		width: 100%;
+		height: auto;
+	}
+	.emails {
+		width: 100%;
+		height: auto;
+	}
+	.telefono {
+		width: 100%;
+		height: auto;
+	}
+	.area {
+		width: 100%;
+		height: auto;
+	}
+	.titulo {
+		font-size: 4rem;
+	}
+}
+@media screen and (max-width: 500px) {
+	.productoscocinados {
+		h1 {
+			font-size: 40px;
+		}
+	}
+	.ensalada {
+		font-size: 15px;
+	}
+	.pastaconsalsaypollo {
+		font-size: 15px;
+	}
+	.polloconensalada {
+		font-size: 15px;
+		padding-top: 1rem;
+	}
+	.tacos {
+		font-size: 15px;
+	}
+	.productos-cocinados {
+		flex-direction: column;
+	}
+	&::placeholder {
+		font-size: 1.4rem;
+	}
+	.titulo {
+		font-size: 2rem;
+	}
+	.subtitulo {
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 420px) {
+	.subtitulo {
+		font-size: 0.5rem;
+	}
+}
+@media screen and (max-width: 300px) {
+	.servicio {
+		font-size: 50px;
+	}
+	.nosotros {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}

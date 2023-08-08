@@ -1,0 +1,29 @@
+.servicios {
+	font-family: $font-family_2;
+	background-color: $background-color_2;
+	color: $color_1;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	padding: 5rem;
+}
+.servicio {
+	font-size: 4rem;
+	display: flex;
+	padding-bottom: 3rem;
+}
+.servicio1 {
+	@include parrafos;
+}
+.cocineroServicios {
+	width: 50rem;
+	margin-left: 2rem;
+	border-radius: 2rem;
+}
+
+@mixin parrafos{
+	font-size: 1rem;
+	color: $color_1;
+
+}
+

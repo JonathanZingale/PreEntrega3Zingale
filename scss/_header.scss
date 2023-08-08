@@ -1,0 +1,32 @@
+header {
+	background-color: $background-color_1;
+}
+.logohome {
+	height: 6rem;
+	cursor: pointer;
+	transition: all 0.5s;
+	&:hover {
+		transform: rotate(15deg);
+	}
+}
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 0.5rem;
+	a {
+		color: $color_1;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 0.9rem;
+		cursor: pointer;
+	}
+}
+.nav-item {
+	a {
+		color: $color_1;
+		&:hover {
+			color: $color_2;
+		}
+	}
+}
